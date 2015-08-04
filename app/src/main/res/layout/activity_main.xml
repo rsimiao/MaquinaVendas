@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/estado_maquina"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/textoPainel"
+            android:background="@color/fundoPainel"
+            android:paddingRight="15dp"
+            android:gravity="right" />
+
+
+    <rsimiao.com.maquinavendas.widgets.SlidingTabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ColorPrimary"/>
+
+    <FrameLayout
+        android:id="@+id/painel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1">
+
+        </android.support.v4.view.ViewPager>
+
+
+    </FrameLayout>
+
+
+
+
+</LinearLayout>

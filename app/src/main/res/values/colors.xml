@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ColorPrimary">#00b8d4</color>
+    <color name="ColorPrimaryDark">#01579b</color>
+    <color name="tabsScrollColor">#01579b</color>
+    <color name="textoPainel">#fff</color>
+    <color name="fundoPainel">#424242</color>
+    <color name="fundoCampo">#eeeeee</color>
+
+    <color name="add_primary">#d50000</color>
+    <color name="add_primary_pressed">#ff1744</color>
+    <color name="add_ripple">#ff5252</color>
+
+</resources>
